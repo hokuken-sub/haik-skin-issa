@@ -262,7 +262,14 @@
   color: inherit;
 }
 .alert-theme {
-  background-color: #a69425;
+  background-color: #b39f28;
+  background-image: -moz-linear-gradient(top, #bba72a, #a69425);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#bba72a), to(#a69425));
+  background-image: -webkit-linear-gradient(top, #bba72a, #a69425);
+  background-image: -o-linear-gradient(top, #bba72a, #a69425);
+  background-image: linear-gradient(to bottom, #bba72a, #a69425);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbba72a', endColorstr='#ffa69425', GradientType=0);
   border-color: #998922;
   color: #000000;
 }
@@ -339,24 +346,10 @@ fieldset[disabled] .btn-theme.active {
 }
 #contents .panel-heading .panel-title {
   line-height: 1.1;
+  color: inherit;
 }
-#contents .panel-default .panel-heading .panel-title {
-  color: #333333;
-}
-#contents .panel-primary .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-success .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-warning .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-danger .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-info .panel-heading .panel-title {
-  color: #ffffff;
+#contents .panel-heading .panel-title a:hover {
+  color: inherit;
 }
 body {
   /* 	background-color: lighten(@theme, 2%); */
@@ -399,5 +392,34 @@ body {
 }
 .table tbody tr.theme > td {
   background-color: #a69425;
-  color: #ffffff;
+  color: #f6f1d4;
+}
+.alert-theme {
+  color: #f6f1d4;
+}
+.alert-theme a {
+  color: #f6f1d4;
+}
+#contents .alert-theme h1,
+#contents .alert-theme h2,
+#contents .alert-theme h3,
+#contents .alert-theme h4,
+#contents .alert-theme h5,
+#contents .alert-theme h1 a,
+#contents .alert-theme h2 a,
+#contents .alert-theme h3 a,
+#contents .alert-theme h4 a,
+#contents .alert-theme h5 a,
+#contents .alert-theme .nav > li > a,
+#contents .alert-theme .nav .nav > li > a {
+  color: #f6f1d4;
+}
+#contents .alert-theme h1 a:hover,
+#contents .alert-theme h2 a:hover,
+#contents .alert-theme h3 a:hover,
+#contents .alert-theme h4 a:hover,
+#contents .alert-theme h5 a:hover,
+#contents .alert-theme .nav > li > a:hover,
+#contents .alert-theme .nav .nav > li > a:hover {
+  color: #f7f7f7;
 }
