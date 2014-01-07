@@ -88,135 +88,6 @@
 
 /* Main marketing message and sign up button */
 
-#orgm_eyecatch {
-	margin-top: 0px;
-}
-
-#orgm_eyecatch .jumbotron {
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-left: 0;
-	padding-right: 0;
-}
-
-#orgm_eyecatch .carousel {
-	border-radius: 0px;
-}
-#orgm_eyecatch .carousel:after {
-	z-index: 0;
-}
-
-#orgm_eyecatch .carousel .item {
-	height: 400px;
-	width: 100%;
-}
-
-#orgm_eyecatch .carousel.fit .item {
-	height: auto;
-}
-
-
-#orgm_eyecatch .carousel .item img{
-	min-width: 100%;
-}
-
-#orgm_eyecatch .carousel-caption {
-	position: absolute;
-	top: auto;
-	right: 0;
-	left: 0;
-	z-index: 10;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	background-color: transparent;
-	padding:0 0;
-}
-
-#orgm_eyecatch .carousel-caption h1 {
-	font-family: 'Merriweather', sans-serif;
-	font-size: 63px;
-	color: #333;
-	font-weight: 900;
-	font-style: normal;
-	text-align: center;
-	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-	margin-top: 0;
-	margin-bottom: 20px;
-}
-
-#orgm_eyecatch .carousel-caption .lead {
-	line-height: 1.5em;
-	color: #333;
-	z-index: 55;
-	text-align: center;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-
-#orgm_eyecatch .carousel-control {
-	background-image: none;
-	z-index: 11;
-}
-
-#orgm_eyecatch .carousel.single .carousel-control {
-	display: none;
-}
-
-.orgm-nocarousel {
-	height: 410px;
-	width: 100%;
-	background-color: #dbdedc;
-	position: relative;
-}
-.orgm-nocarousel h1 {
-	width:  800px;
-	left: 50%;
-	margin-left: -400px;
-	position: absolute;
-	margin-top: 180px;
-	font-family: 'Merriweather', sans-serif;
-	font-size: 63px;
-	line-height: 80px;
-	color: #333;
-	font-weight: 900;
-	font-style: normal;
-	text-align: center;
-	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-.orgm-nocarousel .lead {
-	position: absolute;
-	color: #333;
-	line-height: 1.5em;
-	margin-top: 280px;
-	z-index: 55;
-	width: 800px;
-	left: 50%;
-	top: 0;
-	margin-left: -400px;
-	text-align: center;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-
-.orgm-nocarousel .btn {
-	font-size: 21px;
-	padding: 14px 24px;
-}
-
-.orgm-nocarousel.carousel {
-	margin:0;
-}
-
-
 
 /* Supporting marketing content */
 
@@ -254,13 +125,6 @@
 	}
 }
 
-@media(min-width:768px) {
-	#orgm_eyecatch .jumbotron {
-		padding-top: 0;
-		padding-bottom: 0;
-	}
-}
-
 @media(max-width:767px) {
 	#logo {
 		float: left;
@@ -283,27 +147,23 @@
 		background-image: none;
 		color: #fff;
 	}
-	
-	#orgm_eyecatch {
-		margin-top: 0;
-	}
-	#orgm_eyecatch .jumbotron {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	#orgm_eyecatch .collapse.in .dropdown-menu > li.active > a {
-		color: #fff;
+
+	#orgm_eyecatch .haik-section{
+		height: 200px !important;
 	}
 	#orgm_eyecatch .carousel .item {
-		max-height: 200px;
+		max-height: 200px !important;
+		min-height: 200px !important;
 	}
-	#orgm_eyecatch .carousel .item img{
-		min-height: 200px;
+	#orgm_eyecatch .carousel .item img {
+		min-height: 200px !important;
 	}
-	#orgm_eyecatch .carousel-caption h1 {
-		font-size: 40px;
+	#orgm_eyecatch .carousel .carousel-caption h1 {
+		font-size: 28px;
 	}
-
+	#orgm_eyecatch .carousel .carousel-caption .lead {
+		font-size: 16px;
+	}
 
 	.footer {
 		width: auto;
